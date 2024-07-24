@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Text } from "theme-ui"
+import { Text, Box, Label, Input, Textarea, Button } from "theme-ui"
 import { preToCodeBlock } from "@lekoarts/themes-utils"
 import Code from "@lekoarts/gatsby-theme-minimal-blog/src/components/code"
 import Title from "@lekoarts/gatsby-theme-minimal-blog/src/components/title"
