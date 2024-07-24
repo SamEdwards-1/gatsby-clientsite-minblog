@@ -13,6 +13,45 @@ const theme = merge(tailwind, {
   config: {
     initialColorModeName: `light`,
   },
+  forms: {
+    primary: {
+      maxWidth: '600px',
+      margin: '0 auto',
+      padding: '20px',
+      border: '1px solid',
+      borderColor: 'muted',
+      borderRadius: '8px',
+      boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+    },
+    input: {
+      width: '100%',
+      padding: '10px',
+      borderRadius: '4px',
+      border: '1px solid',
+      borderColor: 'muted',
+      mb: 3,
+    },
+    textarea: {
+      width: '100%',
+      padding: '10px',
+      borderRadius: '4px',
+      border: '1px solid',
+      borderColor: 'muted',
+      minHeight: '150px',
+      mb: 3,
+    },
+  },
+  buttons: {
+    primary: {
+      width: '100%',
+      padding: '10px',
+      borderRadius: '4px',
+      backgroundColor: 'primary',
+      color: 'background',
+      fontWeight: 'bold',
+      cursor: 'pointer',
+    },
+  },
   colors: {
     primary: tailwind.colors.purple[7],
     secondary: `#5f6c80`,
