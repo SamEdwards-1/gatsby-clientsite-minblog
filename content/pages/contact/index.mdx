@@ -3,21 +3,19 @@ title: Contact
 slug: "/contact"
 ---
 
-<form method="post" action="https://getform.io/f/lbjknvqa"  netlify-honeypot="bot-field" data-netlify="true" name="contact">
-      <div class="form-group">
-            <label for="exampleInputEmail1" required="required">Email address</label>
-            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-          </div>
-          <div class="form-group">
-            <label for="exampleInputName">Name</label>
-            <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your name" required="required" />
-          </div>
-          <div class="form-group">
-         <label>Your Message</label>
-         <div>
-            <textarea type="text" name="message" placeholder="Enter your message" required="required"></textarea>
-         </div>
-      </div>
-          <div class="success">We received your submission, thank you!</div> 
-          <button type="submit" class="btn btn-primary">Submit</button>
+<form method="post" action="https://getform.io/f/lbjknvqa" netlify-honeypot="bot-field" data-netlify="true" name="contact" sx={{ variant: 'forms.primary' }}>
+  <div sx={{ mb: 3 }}>
+    <label htmlFor="exampleInputEmail1" sx={{ display: 'block', mb: 1 }}>Email address</label>
+    <input type="email" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" sx={{ variant: 'forms.input' }} required />
+  </div>
+  <div sx={{ mb: 3 }}>
+    <label htmlFor="exampleInputName" sx={{ display: 'block', mb: 1 }}>Name</label>
+    <input type="text" name="name" id="exampleInputName" placeholder="Enter your name" sx={{ variant: 'forms.input' }} required />
+  </div>
+  <div sx={{ mb: 3 }}>
+    <label htmlFor="exampleInputMessage" sx={{ display: 'block', mb: 1 }}>Your Message</label>
+    <textarea name="message" id="exampleInputMessage" placeholder="Enter your message" sx={{ variant: 'forms.textarea' }} required></textarea>
+  </div>
+  <div sx={{ color: 'success', mb: 3 }}>We received your submission, thank you!</div>
+  <button type="submit" sx={{ variant: 'buttons.primary' }}>Submit</button>
 </form>
