@@ -8,10 +8,10 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `Hugh Duthie Research`,
+    siteTitle: `Walk The Dog Research`,
     siteTitleAlt: `Research that makes ideas bigger and better`,
-    siteHeadline: `Hugh Duthie Research - Research that makes ideas bigger and better`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
+    siteHeadline: `Walk The Dog Research - Research that makes ideas bigger and better`,
+    siteUrl: `https://walkthedogresearch.com`,
     siteDescription: `Research that makes ideas bigger and better.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
@@ -25,8 +25,8 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           {
-            title: `About`,
-            slug: `/about`,
+            title: `Team`,
+            slug: `/team`,
           },
           {
             title: `Services`,
